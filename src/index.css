@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  user-select: none;
+}
+
+html body #root {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+#joystickWrapper1 {
+  display: flex;
+  pointer-events: auto;
+  position: absolute;
+  bottom: 50px;
+  left: 50px;
+  background-color: transparent;
+  width: 120px;
+  height: 120px;
+  z-index: 12;
+  touch-action: manipulation;
+  /* background-color: rgba(255, 0, 0, 0.2); */
+}
